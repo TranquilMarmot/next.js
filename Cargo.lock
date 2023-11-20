@@ -322,7 +322,7 @@ dependencies = [
 [[package]]
 name = "auto-hash-map"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "serde",
  "smallvec",
@@ -522,9 +522,9 @@ dependencies = [
 
 [[package]]
 name = "binding_macros"
-version = "0.60.65"
+version = "0.60.68"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d5c56be21af1be0e320dcf78a3f9e700d9a3b3ea7ac58c748a84156b6786b2f5"
+checksum = "b163cc144eb2ac6181e631307bd01f5f6b7aa074f74dc722a74086f604e04d05"
 dependencies = [
  "anyhow",
  "console_error_panic_hook",
@@ -3548,7 +3548,7 @@ dependencies = [
 [[package]]
 name = "node-file-trace"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "serde",
@@ -5728,9 +5728,9 @@ dependencies = [
 
 [[package]]
 name = "swc"
-version = "0.269.58"
+version = "0.269.61"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "71dff087f3b2e1933940fdf34b4ade8ad1e52dc28c64837af9e9e68ca8c8796f"
+checksum = "9198d05d0118cd5c55e77682c282e008e089df3fdf2d4f3cee0b448a48235643"
 dependencies = [
  "anyhow",
  "base64 0.13.1",
@@ -5794,9 +5794,9 @@ dependencies = [
 
 [[package]]
 name = "swc_bundler"
-version = "0.222.52"
+version = "0.222.55"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c19c85d17424aa5105bf0708330cae3335173e79bce1c5d07764067edb39f513"
+checksum = "74a4ea0d320b5a8d6790137ad84a6ed4a2fb584f65a9df09b7adec34271b51a7"
 dependencies = [
  "anyhow",
  "crc",
@@ -5873,9 +5873,9 @@ dependencies = [
 
 [[package]]
 name = "swc_compiler_base"
-version = "0.3.60"
+version = "0.3.63"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3e5855611431a0bd25cb494bcacc59cc2f1b79fe244382b08857a4a808665fdc"
+checksum = "37a82ccedeec3b68135f5494603dec3c5010b586f298bc21deb21cac6cc873d2"
 dependencies = [
  "anyhow",
  "base64 0.13.1",
@@ -5922,9 +5922,9 @@ dependencies = [
 
 [[package]]
 name = "swc_core"
-version = "0.86.65"
+version = "0.86.68"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2b52c6d48b61d8f9f5aed41133fba8f8f30be1b1a237a596c6bdb659e338cc03"
+checksum = "ea20d77ffa7a367be5936766e2d86184947eda0a4112be4dab9214d91b36a04c"
 dependencies = [
  "binding_macros",
  "swc",
@@ -6413,9 +6413,9 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_minifier"
-version = "0.189.54"
+version = "0.189.57"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "782bec110b6764bb57d2c2ef00bb81336214f1e0014945e5942005486d2e5e98"
+checksum = "29055d85ff28adff81e8802d23d1aebe0b1c80c43e891ee4397775cc470a9776"
 dependencies = [
  "arrayvec",
  "indexmap 1.9.3",
@@ -6470,9 +6470,9 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_preset_env"
-version = "0.203.46"
+version = "0.203.47"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4b3e9702447397ff93bca145ffa8325a162688db142b255dd9af88d3ec63ef42"
+checksum = "915363bf0c74d48d4b2589e9cf0d020aa855b23885a1331d7ba5933fc3040e0b"
 dependencies = [
  "anyhow",
  "dashmap",
@@ -6526,9 +6526,9 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_transforms"
-version = "0.226.46"
+version = "0.226.47"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8eb9bcb045bb8ced51b03b7a61e8ed2f76babf795aede3387d38f0c4ba8af949"
+checksum = "76632344d71af2514fc098f157cfad700371353fc62b2332f02b68b857681934"
 dependencies = [
  "swc_atoms",
  "swc_common",
@@ -6661,9 +6661,9 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_transforms_optimization"
-version = "0.195.46"
+version = "0.195.47"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "551e146be0840a7c428d34b621f4c62b7d8b020edabef664c918c15833aa9b15"
+checksum = "b6d24372a4e789c60a9979c82d521ed1fcdfbcfb57e9a77b1a639ca6d694a8dd"
 dependencies = [
  "dashmap",
  "indexmap 1.9.3",
@@ -6686,9 +6686,9 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_transforms_proposal"
-version = "0.168.46"
+version = "0.168.47"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "47e7077e572c8103492c326534ae706c20a8b32e4ce20398fb45dede11415daf"
+checksum = "13052d89d3597fc27ad1988298d597fbcb89dae86511d72f55483eb77ff90558"
 dependencies = [
  "either",
  "rustc-hash",
@@ -6757,9 +6757,9 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_transforms_typescript"
-version = "0.185.44"
+version = "0.185.45"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e6255a2386978c528876f2d33eb960c2abdda83c754a7a21b2b03df3e994165a"
+checksum = "353e83883f5fe6774d0976880ba216cdb3d9fdd1bbec80d307fe2639686a0af7"
 dependencies = [
  "ryu-js",
  "serde",
@@ -7678,7 +7678,7 @@ dependencies = [
 [[package]]
 name = "turbo-tasks"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -7710,7 +7710,7 @@ dependencies = [
 [[package]]
 name = "turbo-tasks-build"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "cargo-lock",
@@ -7722,7 +7722,7 @@ dependencies = [
 [[package]]
 name = "turbo-tasks-bytes"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "bytes",
@@ -7737,7 +7737,7 @@ dependencies = [
 [[package]]
 name = "turbo-tasks-env"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "dotenvs",
@@ -7751,7 +7751,7 @@ dependencies = [
 [[package]]
 name = "turbo-tasks-fetch"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "indexmap 1.9.3",
@@ -7768,7 +7768,7 @@ dependencies = [
 [[package]]
 name = "turbo-tasks-fs"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "auto-hash-map",
@@ -7798,7 +7798,7 @@ dependencies = [
 [[package]]
 name = "turbo-tasks-hash"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "base16",
  "hex",
@@ -7810,7 +7810,7 @@ dependencies = [
 [[package]]
 name = "turbo-tasks-macros"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "convert_case 0.6.0",
@@ -7824,7 +7824,7 @@ dependencies = [
 [[package]]
 name = "turbo-tasks-macros-shared"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -7834,7 +7834,7 @@ dependencies = [
 [[package]]
 name = "turbo-tasks-malloc"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "mimalloc",
 ]
@@ -7842,7 +7842,7 @@ dependencies = [
 [[package]]
 name = "turbo-tasks-memory"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "auto-hash-map",
@@ -7867,7 +7867,7 @@ dependencies = [
 [[package]]
 name = "turbopack"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "async-recursion",
@@ -7898,7 +7898,7 @@ dependencies = [
 [[package]]
 name = "turbopack-binding"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "auto-hash-map",
  "mdxjs",
@@ -7938,7 +7938,7 @@ dependencies = [
 [[package]]
 name = "turbopack-build"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "indexmap 1.9.3",
@@ -7961,7 +7961,7 @@ dependencies = [
 [[package]]
 name = "turbopack-cli-utils"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "clap 4.4.2",
@@ -7985,7 +7985,7 @@ dependencies = [
 [[package]]
 name = "turbopack-core"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "async-recursion",
@@ -8015,7 +8015,7 @@ dependencies = [
 [[package]]
 name = "turbopack-css"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -8037,7 +8037,7 @@ dependencies = [
 [[package]]
 name = "turbopack-dev"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "indexmap 1.9.3",
@@ -8061,7 +8061,7 @@ dependencies = [
 [[package]]
 name = "turbopack-dev-server"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "async-compression",
@@ -8098,7 +8098,7 @@ dependencies = [
 [[package]]
 name = "turbopack-ecmascript"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -8132,7 +8132,7 @@ dependencies = [
 [[package]]
 name = "turbopack-ecmascript-hmr-protocol"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "serde",
  "serde_json",
@@ -8143,7 +8143,7 @@ dependencies = [
 [[package]]
 name = "turbopack-ecmascript-plugins"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -8166,7 +8166,7 @@ dependencies = [
 [[package]]
 name = "turbopack-ecmascript-runtime"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "indoc",
@@ -8183,7 +8183,7 @@ dependencies = [
 [[package]]
 name = "turbopack-env"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "indexmap 1.9.3",
@@ -8199,7 +8199,7 @@ dependencies = [
 [[package]]
 name = "turbopack-image"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "base64 0.21.4",
@@ -8219,7 +8219,7 @@ dependencies = [
 [[package]]
 name = "turbopack-json"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "serde",
@@ -8234,7 +8234,7 @@ dependencies = [
 [[package]]
 name = "turbopack-mdx"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "mdxjs",
@@ -8249,7 +8249,7 @@ dependencies = [
 [[package]]
 name = "turbopack-node"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "async-stream",
@@ -8284,7 +8284,7 @@ dependencies = [
 [[package]]
 name = "turbopack-static"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "serde",
@@ -8300,7 +8300,7 @@ dependencies = [
 [[package]]
 name = "turbopack-swc-utils"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "swc_core",
  "turbo-tasks",
@@ -8311,7 +8311,7 @@ dependencies = [
 [[package]]
 name = "turbopack-wasm"
 version = "0.1.0"
-source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#9351eab589be82651648cfb84687382aa9e12fcd"
+source = "git+https://github.com/vercel/turbo.git?branch=kdy1/swc-core-86#b049a05b466131c6cc12f37835b6efbe4d518758"
 dependencies = [
  "anyhow",
  "indexmap 1.9.3",
